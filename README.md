@@ -8,3 +8,6 @@ This repository contains all the little utility scripts that helps MOSIP residen
 
 2. Download a VC with VID from another env `qa-1201-b2`
 > ./download-vc.sh 3716739761826031 qa-1201-b2
+
+3. Download VC to a file using output redirection
+> ./download-vc.sh 7615896312 > vc.json
